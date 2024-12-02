@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NCT ESPAÑA || Fanbase Eventos</title>
+
+    <!-- Enlaces fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Audiowide&family=Sarpanch:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <!-- Enlace de estilo CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Enlace a Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Enlace al icono de la página-->
+    <link rel="icon" href="images/NCT.ico">
+</head>
+
+<body>
+    <header>
+        <!--Logo y titulo de la página-->
+        <div class="logo">
+            <img src="images/logo.png" alt="logo de la fanbase NCT España">
+            <h1>NCT ESPAÑA</h1>
+        </div>
+    </header>
+
+    <nav class="menu" role="navigation">
+        <ul>
+            <li><a href="1.index.html"> Home </a></li>
+            <li> <a href="2.about.html"> Sobre la fanbase</a></li>
+            <li><a href="3.gallery.html"> Eventos </a></li>
+            <li><a href="7.NCT127.html">NCT 127</a></li>
+            <li><a href="8.NCTDREAM.html">NCT DREAM</a> </li>
+            <li><a href="9.WayV.html"> WayV </a></li>
+            <li><a href="4.services.html"> Acceso </a></li>
+            <li><a href="5.contact.html"> Contacto</a></li>
+    </nav>
+    </ul>
+
+    <main class="pág">
+        <h3>Formulario para la creación de eventos</h3>
+    </main>
+    <section class="form-evento">
+        <form>
+            <h4>Datos necesarios</h4>
+            <input class="controles" type="text" name="nombres" id="nombres" placeholder="Introduce tu nombre" required>
+            <input class="controles" type="text" name="ciudad" id="ciudad" placeholder="Ciudad del evento" required>
+            <input class="controles" type="text" name="lugar" id="lugar" placeholder="Lugar del evento">
+            <input class="controles" type="text" name="miembro" id="miembro" placeholder="Miembro o subunidad" required>
+            <textarea class="controles" type="text" name="ideas" id="ideas" placeholder="Ideas de actividades"
+                minlength="10" maxlength="500"></textarea>
+            <input class="controles" type="date" name="fecha" id="fecha" placeholder="Fecha aproximada de celebración">
+
+            <label><input type="checkbox" name="compromiso" value="acepto" id="compromiso">Me comprometo a ponerme en
+                contacto con los establecimientos necesarios para celebrar el evento y a llevar a cabo el mismo</label>
+            <label><input type="checkbox" name="mayor18" value="si" id="mayor18">Soy mayor de 18 años</label>
+            <label><input type="checkbox" name="ayuda" value="si" id="ayuda">Necesito ayuda para el evento </label>
+            <input class="botones" type="submit" value="Enviar formulario">
+        </form>
+    </section>
+    <footer class="footer" role="footer">
+        <ul>
+            <li><a href="https://chat.whatsapp.com/CSFitqIe0ZxDmRUx740YbH"><img
+                        src="images/icon images/whatsapp_2504957.png""></a></li>
+          <li><a href=" https://www.instagram.com/nct_espana/#"><img src="images/icon images/social_15707749.png"></a>
+            </li>
+            <li><a href="https://www.x.com/nct_espana"><img src="images/icon images/twitter_5969020.png"></a></li>
+            <li><a href="1.index.html">Home</a></li>
+            <li><a href="2.about.html">Sobre la fanbase</a></li>
+            <li><a href="4.services.html">Acceso</a></li>
+            <li><a href="5.contact.html">Contacto</a></li>
+        </ul>
+        <p class="texto"> @2024 | Todos los derechos reservados
+        </p>
+    </footer>
+</body>
+
+
+</html>
