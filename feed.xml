@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <!--Link de referencia de atom-->
+    <atom:link href="https://coherent-industry.surge.sh/feed.xml" rel="self" type="application/rss+xml" />
+    <!--Título del canal-->
+    <title>NCT España</title>
+    <link>https://coherent-industry.surge.sh/index.html</link>
+    <description>Página web de la fanbase de NCT España</description>
+    <!--Actualización 1. Cambio del carrusel de noticias-->
+    <item>
+      <title>Noticias de actualidad NCT España</title>
+      <link>https://www.instagram.com/nct_espana/</link>
+      <description>Noticias sobre NCT</description>
+      <category>Noticias</category>
+      <author>nctespana@gmail.com</author>
+      <pubDate>Thu, 24 Apr 2025 10:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Entrada-sobre-Instagram-NCT</guid>
+    </item>
+     <!--Actualización 2. Nueva sección de blog-->
+     <item>
+        <title>Blog de NCT España</title>
+        <link>https://coherent-industry.surge.sh/blog.html</link>
+        <description>Blog de NCT España</description>
+        <category>Noticias</category>
+        <author>nctespana@gmail.com</author>
+        <pubDate>Thu, 24 Apr 2025 10:00:00 +0200</pubDate>
+        <guid isPermaLink="false">Seccion-blog</guid>
+      </item>
+  </channel>
+</rss>
